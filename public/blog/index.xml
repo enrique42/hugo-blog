@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Evening Tide</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blog on Evening Tide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Dec 2019 07:18:14 -0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prove It All Night</title>
+      <link>http://example.org/prove-it-all-night/</link>
+      <pubDate>Fri, 20 Dec 2019 07:18:14 -0300</pubDate>
+      
+      <guid>http://example.org/prove-it-all-night/</guid>
+      <description>Prove it all night, prove it all night Girl there&#39;s nothing else that we can do Said prove it all night, prove it all night And girl I&#39;ll prove it all night for you</description>
+    </item>
+    
+    <item>
+      <title>Badlands</title>
+      <link>http://example.org/badlands/</link>
+      <pubDate>Fri, 20 Dec 2019 07:17:58 -0300</pubDate>
+      
+      <guid>http://example.org/badlands/</guid>
+      <description>Talk about a dream, try to make it real You wake up in the night with a fear so real You spend your life waiting for a moment that just don&#39;t come Well, don&#39;t waste your time waiting</description>
+    </item>
+    
+    <item>
+      <title>Have Love</title>
+      <link>http://example.org/have-love/</link>
+      <pubDate>Thu, 19 Dec 2019 21:29:27 -0300</pubDate>
+      
+      <guid>http://example.org/have-love/</guid>
+      <description>Whaa, have love Whoa baby, will travel Uh-huh, uh-huh, have love Whoa baby, will travel I said If you need lovin&amp;rsquo; Then mmm-hmm, I&#39;ll travel</description>
+    </item>
+    
+  </channel>
+</rss>
