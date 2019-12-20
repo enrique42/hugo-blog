@@ -7,7 +7,7 @@ title = "Evening Tide"
 
 [params]
     dateFormat = "Jan 2, 2006"
-    homeText = "I was satisfied with haiku until I met you, jar of octopus, cuckoo’s cry, 5-7-5..."
+    homeText = "Welcome home, welcome home"
 
 [taxonomies]
   tag = "tags"
