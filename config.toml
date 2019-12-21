@@ -28,3 +28,6 @@ title = "Evening Tide"
     pre = "tag"
     url = "/tags/"
     weight = 3
+
+[markup.goldmark.renderer]
+  unsafe= true

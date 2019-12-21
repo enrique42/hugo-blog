@@ -5,9 +5,16 @@ tags: ['música','arte']
 draft: false
 ---
 
-Whaa, have love
-**Whoa baby, will travel**
-Uh-huh, uh-huh, have love
-Whoa baby, will travel
-I said If you need lovin'
-Then mmm-hmm, I'll travel
+Whaa, have love<br>
+**Whoa baby, will travel**<br>
+Uh-huh, uh-huh, have love<br>
+Whoa baby, will travel<br>
+I said If you need lovin'<br>
+Then mmm-hmm, I'll travel<br>
+
+Whaa, have love<br>
+**Whoa baby, will travel**<br>
+Uh-huh, uh-huh, have love<br>
+Whoa baby, will travel<br>
+I said If you need lovin'<br>
+Then mmm-hmm, I'll travel<br>

@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+// ==========================================================================
+// Plugins e Frameworks de SASS
+// ==========================================================================
+
+$grid-columns: 12;
+$max-width: 1080px;
+$maxwidth: 1080px;
+
+$branco: #fff;
+$texto: #000;
+$tclaro: #707070;
+$bege1: #EDD7A7;
+$bege: #EDD7A7;
+$bege2: #D5CBBC;
+$amarelo: #FFB71D;
+$amarelodark: #CE984E;
+$vermelho: #964528;
+$laranja: #C66C00;
+$marrom: #6E4817;
+$marromdark: #39240A;
+
+$fzpadrao: 15px;
+
+$fmenu: 12px;
+$fui: 11px;
+
+$fhead: 55px;
+$ftitle: 32px;
+$ftitle2: 25px;
+$ftitle3: 19px;
+
+$tablet: 900px;
+$mobile: 600px;
+
+//MIXIN FONTE
+@mixin fonte(){
+	font-family: 'Roboto', 'Calibri', 'Lucida Grande', sans-serif;
+}
+
+@mixin fmono(){
+	font-family: 'PT Mono', 'Calibri', 'Lucida Grande', sans-serif;
+	letter-spacing: 1.25px;
+}
+
+//MIXIN COLUNAS
+$grd-cols: 12;
+$grd-gt: 2.5%;
+$wcol: (100% - 11*$grd-gt)/$grd-cols;
+
+@function colunas($ncol){
+	@return ($ncol*$wcol + ($ncol - 1)*$grd-gt);
+}
+
+//MIXIN BOX-SHADOW
+@mixin bshadow($distx, $disty, $blur, $cor){
+	-webkit-box-shadow: $distx $disty $blur 0px $cor;
+	-moz-box-shadow: $distx $disty $blur 0px $cor;
+	box-shadow: $distx $disty $blur 0px $cor;
+}
+
+//MIXIN CLEARFIX
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin botaohover($cor, $texto, $perc, $ativo: ""){
+	background-color: $cor;
+	color: $texto;
+	&:hover{
+		background-color: darken($cor, $perc);
+	}
+	@if $ativo == "" {
+	&.ativo{
+		background-color: lighten($cor, $perc);	
+	}
+	} @else {
+	&.ativo{
+		background-color: $ativo;	
+	}	
+	} 
+}
+
+// ==========================================================================
+// Resets e Configurações básicas
+// ==========================================================================
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, 
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+strong, b{
+	font-weight: bold;
+}
+em{
+	font-style: italic;
+}

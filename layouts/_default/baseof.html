@@ -5,10 +5,10 @@
 
 <body>
     {{ partial "nav.html" . }}
-    <div class="container">
-        <main id="main">
+    <div class="section">
+        <div class="container">
             {{ block "main" . }}{{ end }}
-        </main>
+        </div>
     </div>
     {{ partial "script.html" . }}
 </body>

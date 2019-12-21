@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+<div class="tags-single">
 <h1>{{ .Title }}</h1>
 
 {{ range .Data.Terms.Alphabetical }}
@@ -9,5 +10,6 @@
     </a>
 </p>
 {{ end }}
+</div>
 
 {{ end }}

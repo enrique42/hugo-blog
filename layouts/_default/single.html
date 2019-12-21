@@ -1,8 +1,11 @@
 {{ define "main" }}
 
+<div class="post-single">
 <h1>{{ .Title }}</h1>
 {{ partial "date-and-tags.html" . }}
-<br><br>
+<div class="config-text">
 {{ .Content }}
+</div>
+</div>
 
 {{ end }}

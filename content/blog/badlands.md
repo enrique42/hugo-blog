@@ -5,7 +5,7 @@ tags: ['música','arte']
 draft: false
 ---
 
-Talk about a dream, try to make it real
-You wake up in the night with a fear so real
-You spend your life waiting for a moment that just don't come
-Well, don't waste your time waiting
+Talk about a dream, try to make it real<br>
+You wake up in the night with a fear so real<br>
+You spend your life waiting for a moment that just don't come<br>
+Well, don't waste your time waiting<br>
