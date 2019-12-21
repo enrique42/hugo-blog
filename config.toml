@@ -1,6 +1,6 @@
 baseURL = "https://zealous-noether-35281e.netlify.com/"
 languageCode = "en-us"
-title = "Evening Tide"
+title = "Evening's Tide"
 
 [permalinks]
   blog = "/:filename/"
