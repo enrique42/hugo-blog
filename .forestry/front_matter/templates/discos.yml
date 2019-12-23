@@ -1,0 +1,28 @@
+---
+label: Discos
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: titulo
+  label: titulo
+- type: text
+  name: banda
+  label: banda
+- type: number
+  name: ano
+  label: ano
+- type: file
+  name: cover
+  label: cover
+- type: textarea
+  name: embed
+  label: embed
