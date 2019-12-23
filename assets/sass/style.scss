@@ -167,3 +167,42 @@ a:active{
         margin-bottom: 1em;
     }
 }
+
+.disco-single{
+    padding-top: 25px;
+    &__header{
+        margin-bottom: 25px;
+        border-bottom: 2px solid #aa0000;
+        padding-bottom: 10px;
+        h1{
+            font-size: 32px;
+            font-weight: 900;
+        }
+        h2{
+            font-size: 24px;
+            font-weight: 300;
+        }        
+    }
+    &__conteudo{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 25px;
+    }
+    &__capa{
+        height: 380px;
+        img{
+            display: block;
+            height: 380px;
+        }
+    }
+    &__text{
+        padding-left: 30px;
+        line-height: 1.7;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .date-time{
+        margin-bottom: 25px;
+    }    
+}

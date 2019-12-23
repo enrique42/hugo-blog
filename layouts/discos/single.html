@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="disco-single">
+    <div class="disco-single__header">
+        <h1>{{ .Params.titulo }}</h1>
+        {{ with .Params.banda }}
+        <h2>{{ . }}</h2>
+        {{ end }}
+    </div>
+
+    <div class="disco-single__conteudo">
+        {{ with .Params.cover }}        
+        <div class="disco-single__capa">
+            <img src="{{ . }}" alt="">
+        </div>
+        {{ end }}
+        
+        {{ with .Params.embed }}
+        <div class="disco-single__embed">
+            {{ . | safeHTML}}
+        </div>
+        {{ end }}
+
+        <div class="disco-single__text">
+            {{ .Content }}
+        </div>
+    </div>
+
+    
+</div>
+
+{{ end }}

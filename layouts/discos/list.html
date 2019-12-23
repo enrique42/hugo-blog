@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div class="lista-posts">
+<h1>Discos!</h1>
+{{ range .Pages.ByPublishDate.Reverse }}
+
+<div class="item-post">
+    <h3><a href="{{ .RelPermalink }}"><strong>{{ .Params.titulo }}</strong> | {{ .Params.banda }}</a></h3>
+    {{ partial "date-and-tags.html" . }}
+</div>
+
+{{ end }}
+</div>
+
+{{ end }}
